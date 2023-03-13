@@ -2,7 +2,7 @@
 
 <div align="center">
  
-  <h3><b>Portfolio Microverse</b></h3>
+  <h2><b>Python Pulse</b></h2>
 
 </div>
 <!--
