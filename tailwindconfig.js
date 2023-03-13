@@ -7,9 +7,11 @@ tailwind.config = {
                 gray: '#D3D3D3'
             },
             screens: {
-            'sm': '375px',
-            'md': '768px',
-        },
+                sm: "480px",
+                md: "768px",
+                lg: "976px",
+                xl: "1440px",
+            },
         },
     },
 }

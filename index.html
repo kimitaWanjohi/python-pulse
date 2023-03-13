@@ -4,14 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="tailwindconfig.js"></script>
     <title>Python Pulse</title>
 </head>
 <body>
-    <header>
-        
+    <header class="main-bg">
+        <!-- top nav -->
+        <div class='hidden md:block bg-primary text-white'>
+            <div class="container mx-auto">
+                <div class="flex justify-end py-2">
+                    <ul class="flex items-center justify-between">
+                        <li class="mr-2 cursor-pointer fa fa-facebook"></li>
+                        <li class="mr-2 cursor-pointer fa fa-twitter"></li>
+                        <li class="mr-2 cursor-pointer">English</li>
+                        <li class="mr-2 cursor-pointer">Login</li>
+                        <li class="mr-2 cursor-pointer">Register</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- main nav -->
+        <nav class="p-3 bg-transparent md:bg-white md:shadow">
+            <div class="container mx-auto md:flex md:items-center md:justify-between">
+                <div class="flex justify-between items-center">
+                    <a class="text-2xl cursor-pointer hidden md:block">
+                        <img class="h-10 inline" src="assets/pplogo.png">
+                        <span class="text-primary font-bold">Python Pulse</span>
+                    </a>
+                    
+                    <span id="bars" class="text-3xl cursor-pointer mx-2 block md:hidden">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </div>
+
+                <ul id="menu" class="md:flex md:items-center z[-1] md:auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-7 md:opacity-100 opacity-0 top-[-100%] transition-all ease-in-out duration-500">
+                    <a class="text-2xl mb-3 cursor-pointer md:hidden block">
+                        <img class="h-10 inline" src="assets/pplogo.png">
+                        <span class="text-primary font-bold">Python Pulse</span>
+                    </a>
+                    
+                    <li class="mx-4 my-6 text-secondary font-semibold md:my-0">
+                        Home
+                    </li>
+                    <li class="mx-4 text-primary my-6 font-semibold md:my-0">
+                        About
+                    </li>
+                    <li class="mx-4 text-primary my-6 font-semibold md:my-0">
+                        Join
+                    </li>
+                    <li class="mx-4 text-primary my-6 font-semibold md:my-0">
+                        Blog
+                    </li>
+                    <button class="bg-white text-secondary hover:bg-secondary hover:text-white px-4 py-2 border-4 border-secondary border-solid mx-4 my-6 md:my-0">
+                        Buy Tickets
+                    </button>
+                </ul>
+            </div>
+        </nav>
     </header>
 </body>
 </html>
