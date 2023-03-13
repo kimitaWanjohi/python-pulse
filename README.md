@@ -36,7 +36,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖My Portfolio ](#my-portfolio-)
+- [📖Python Pulse](#python-pulse)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -53,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖My Portfolio <a name="about-project"></a>
+# 📖Python Pulse<a name="about-project"></a>
 
 ** Python Pulse is web conference website for pythoneers. **
 
@@ -115,7 +115,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/kimitaWanjohi/
+  git clone https://github.com/kimitaWanjohi/python-pulse.git
 ```
 ### Install
 
@@ -123,7 +123,7 @@ Install this project with:
 
 
 ```sh
-  cd my-portfolio
+  cd python-pulse
   yarn install 
 ```
 
