@@ -4,7 +4,7 @@ tailwind.config = {
             colors: {
                 primary: '#272A31',
                 secondary: '#EC5242',
-                gray: '#D3D3D3'
+                grey: '#D3D3D3'
             },
             screens: {
                 sm: "480px",

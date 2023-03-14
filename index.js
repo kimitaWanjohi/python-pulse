@@ -6,7 +6,7 @@ const closeMenu = () => {
     if (barsChild.classList.contains('fa-bars')) {
         barsChild.classList.remove('fa-bars');
         barsChild.classList.add('fa-times');
-        menu.classList.add('top-[80px]');
+        menu.classList.add('top-[60px]');
         menu.classList.add('opacity-100');
     }
     else {
