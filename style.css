@@ -14,3 +14,7 @@
 .bg-main{
     background-image: url(assets/mainbg.jpg);
 }
+
+.bg-geo {
+    background-image: url(assets/geobg.jpg);
+}
