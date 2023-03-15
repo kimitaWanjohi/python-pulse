@@ -40,6 +40,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo pulse.kimitawanjohi.live](#-live-demo-pulsekimitawanjohilive)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -78,23 +79,23 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[Navigation bar]**
-- **[About section]**
-- **[Contact Form]**
-- **[Projects Popup]**
+- **[ Home Page]**
+- **[About Page]**
+- **[Responsive Layout]**
+- 
 <!-- - **[key_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a href="kimitawanjohi.live" name="live-demo">kimitawanjohi.live</a> -->
+## 🚀 Live Demo <a href="pulse.kimitawanjohi.live" name="live-demo">pulse.kimitawanjohi.live</a>
 
-<!-- <img src="assets/screenshot.png"> -->
+<img src="/assets/screenshot.png" width="500px" height="auto" />
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+GETTING STARTED
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -133,13 +134,14 @@ Install this project with:
 
 ## 👥 Authors <a name="authors"></a>
 
+- <a href="https://github.com/kimitawanjohi"> **Kimita Wanjohi** </a> 
 > Mention all of the collaborators of this project.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/kimitawanjohi)
-- Twitter: [@twitterhandle](https://twitter.com/kimitaw)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/kimitawanjohi)
+- GitHub: [@kimita](https://github.com/kimitawanjohi)
+- Twitter: [@kimita](https://twitter.com/kimitaw)
+- LinkedIn: [@kimita](https://linkedin.com/in/kimitawanjohi)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,8 +150,7 @@ Install this project with:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[mobile version]**
-- [ ] **[Desktop version]**
+- [ ] **[ Contact Us ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -173,7 +174,6 @@ If you like this project feel free to leave comments and contact via given autho
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- [Microverse](https://www.microverse.org/)
 - [kimita]('https://github.com/kimitawanjohi')
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
