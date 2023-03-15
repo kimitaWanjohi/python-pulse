@@ -61,7 +61,7 @@ const speakersData = [
 
 speakersData.forEach((speaker) => {
   const speakerDiv = document.createElement('div');
-  speakerDiv.classList.add('px-4', 'py-8');
+  // speakerDiv.classList.add('px-4', 'py-8');
   speakerDiv.innerHTML = `
                             <div class="flex items-center justify-center gap-2 relative">
                             <img src="assets/python.png" class="absolute top-[-15px] left-[-25px] h-[80px]">
