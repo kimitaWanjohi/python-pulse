@@ -18,3 +18,11 @@
 .bg-geo {
   background-image: url(assets/geobg.jpg);
 }
+
+.conference1 {
+  background-image: url('assets/conference1.jpg');
+}
+
+.conference2 {
+  background-image: url('assets/conference2.jpg');
+}

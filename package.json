@@ -7,7 +7,6 @@
     "stylelint": "stylelint \"**/*.{css,scss}\"",
     "eslint": "eslint .",
     "hint": "hint .",
-    "test": "npm run stylelint && npm run eslint && npm run hint",
     "fix": "stylelint \"**/*.{css,scss}\" --fix && eslint . --fix"
   },
   "devDependencies": {
