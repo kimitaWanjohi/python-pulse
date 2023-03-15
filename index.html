@@ -27,9 +27,9 @@
             </div>
         </div>
         
-        <div class="bg-main bg-center bg-cover h-screen bg-blend-overlay bg-white/80 ">
+        <div class="main-bg bg-center bg-cover min-h-screen h-fit bg-blend-overlay">
             <!-- main nav -->
-            <nav class="p-3 bg-transparent md:bg-white md:shadow bg-white">
+            <nav id="nav" class="p-3 md:bg-white md:shadow">
                 <div class="container mx-auto md:flex md:items-center md:justify-between">
                     <div class="flex justify-between items-center">
                         <a class="text-2xl cursor-pointer hidden md:block">
@@ -52,13 +52,13 @@
                             <a class="no-underline" href="about.html">About</a>
                         </li>
                         <li class="mx-4 text-primary my-6 font-semibold md:my-0">
-                            <a class="no-underline" href="#schedule">Schedule</a>
+                            <a class="no-underline" onclick="closeMenu()" href="#schedule">Schedule</a>
                         </li>
                         <li class="mx-4 text-primary my-6 font-semibold md:my-0">
-                            <a class="no-underline" href="#speakers">Speakers</a>
+                            <a class="no-underline" onclick="closeMenu()" href="#speakers">Speakers</a>
                         </li>
                         <li class="mx-4 text-primary my-6 font-semibold md:my-0">
-                            <a class="no-underline" href="/">Blog</a>
+                            <a class="no-underline" onclick="closeMenu()" href="/">Blog</a>
                         </li>
                         <button class="bg-white text-secondary hover:bg-secondary hover:text-white px-4 py-2 border-4 border-secondary border-solid mx-4 my-6 md:my-0">
                             Buy Tickets
@@ -68,7 +68,7 @@
             </nav>
             
             <div>
-                <div class="container mt-10 mx-auto flex flex-col items-start px-8 py-4 justify-center h-[80vh]">
+                <div class="container mt-10 mx-auto flex flex-col items-start px-8 py-4 justify-center mb-4 min-h-[80vh]">
                     <h3 class="font-bold text-2xl text-secondary" >
                         A community of Python developers
                     </h3>

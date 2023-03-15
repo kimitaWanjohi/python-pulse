@@ -11,7 +11,7 @@
     <title>Python Pulse</title>
 </head>
 <body>
-    <header>
+    <div>
         <!-- top nav -->
         <div class='hidden md:block bg-primary text-white'>
             <div class="container mx-auto">
@@ -27,12 +27,12 @@
             </div>
         </div>
         
-        <div class="bg-main bg-center bg-cover h-screen bg-blend-overlay bg-white/80 ">
+        <div class="main-bg bg-center bg-cover min-h-screen h-fit bg-blend-overlay">
             <!-- main nav -->
-            <nav class="p-3 bg-transparent md:bg-white md:shadow bg-white">
+            <nav id="nav" class="p-3 md:bg-white md:shadow">
                 <div class="container mx-auto md:flex md:items-center md:justify-between">
                     <div class="flex justify-between items-center">
-                        <a class="text-2xl cursor-pointer hidden md:block">
+                        <a href="index.html" class="text-2xl cursor-pointer hidden md:block">
                             <img class="h-10 inline" src="assets/pplogo.png">
                             <span class="text-primary font-bold">Python Pulse</span>
                         </a>
@@ -49,16 +49,16 @@
                         </a>
                         
                         <li class="mx-4 my-6 text-secondary font-semibold md:my-0">
-                            Home
+                            <a class="no-underline" href="index.html">Home</a>
                         </li>
                         <li class="mx-4 text-primary my-6 font-semibold md:my-0">
-                            About
+                            <a class="no-underline" onclick="closeMenu()" href="/index.html#schedule">Schedule</a>
                         </li>
                         <li class="mx-4 text-primary my-6 font-semibold md:my-0">
-                            Join
+                            <a class="no-underline" onclick="closeMenu()" href="/index.html#speakers">Speakers</a>
                         </li>
                         <li class="mx-4 text-primary my-6 font-semibold md:my-0">
-                            Blog
+                            <a class="no-underline" onclick="closeMenu()" href="/">Blog</a>
                         </li>
                         <button class="bg-white text-secondary hover:bg-secondary hover:text-white px-4 py-2 border-4 border-secondary border-solid mx-4 my-6 md:my-0">
                             Buy Tickets
@@ -68,35 +68,79 @@
             </nav>
             
             <div>
-                <div class="container mt-10 mx-auto flex flex-col items-start px-8 py-4 justify-center h-[80vh]">
-                    <h3 class="font-bold text-2xl text-secondary" >
-                        A community of Python developers
+                <div class="container mt-10 mx-auto flex flex-col items-center px-8 py-4 justify-start mb-4 min-h-[80vh]">
+                    <h3 class="font-bold text-4xl text-secondary mt-10 text-center" >
+                        Python Pulse is the Biggest <br/>
+                        Community of Python developers
                     </h3>
-                    <div>
-                        <h2 class=" bg-main bg-repeat bg-cover bg-clip-text text-transparent font-bold text-6xl md:text-8xl text-opacity-20">  
-                            Python Pulse <br/>
-                            2023
-                        </h2>
-                    </div>
-                    <div class="bg-grey border-gray-400 border-2 rounded-md w-full md:w-2/3 p-2 mt-4">
-                        <p class="text-gray-800">
-                            Join us for an exciting journey into the world of Python.
+                    <hr class="w-[32px] border-2 border-secondary my-4">
+
+                    <div class="bg-gray-100 mt-8 shadow-lg mx-auto rounded-md border-2 p-4">
+                        <p class="text-center">
+                            Python Pulse is a conference dedicated to all things Python, bringing together developers, data scientists, and other tech enthusiasts to learn, network, and share their experiences with one another. With a diverse range of talks, workshops, and hackathons, Python Pulse offers something for everyone, from beginners to seasoned professionals. Our goal is to foster a vibrant community of Python enthusiasts and provide a platform for knowledge exchange and collaboration. Join us at Python Pulse to deepen your understanding of Python and its applications, and connect with like-minded individuals from around the world.
                         </p>
                     </div>
-                    <h4 class="font-bold text-2xl text-gray-700 mt-4">
-                        Join us on 12th December 2023 <br/>
-                        <span class="text-xl">
-                            at Random Hall, Nairobi
-                        </span>
-                    </h4>
+
+                    <p class="mt-6 text-center">
+                        contact us via email if you need any help along the way <br>
+                        <a class="text-primary no-underline" href="mailto:info@pythonpulse.org">
+                            pythonpulse.org
+                        </a>
+                    </p>
+
+                    <div class="mt-6 flex items-center justify-center">
+                        <img class="h-20 inline" src="assets/pplogo.png">
+                        <span class="text-primary text-5xl font-bold">Python Pulse</span>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-4xl text-secondary mt-10 text-center" >
+                            See past events
+                        </h3>
+                        <p class="text-center">
+                            Check out our past events to see what we've been up to
+                        </p>
+                        
+                        <div class="grid-rows-4">
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 px-4 mt-10">
+                                
+                                <div class="bg-orange-800/80 hover:bg-orange-800/0 transition-all ease-linear duration-500 bg-cover bg-blend-overlay bg-center min-h-[250px]" style="background-image: url('assets/conference1.jpg');">
+                                    <div class="w-full h-full flex flex-col items-center justify-center">
+                                        <h4 class="text-white text-2xl font-bold" > 2020</h4>
+                                        <p class="text-white mt-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="bg-orange-800/80 hover:bg-orange-800/0 transition-all ease-linear duration-500 bg-cover bg-blend-overlay bg-center min-h-[250px]" style="background-image: url('assets/conference2.jpg');">
+                                    <div class="w-full h-full flex flex-col items-center justify-center">
+                                        <h4 class="text-white text-2xl font-bold" > 2021</h4>
+                                        <p class="text-white mt-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
 
-    <main>
-
-    </main>
+    <footer class="border-t-gray-200 border-t-2">
+        <div class="container mx-auto py-10">
+            <div class="flex items-center justify-around gap-4">
+                <h3 class="text-2xl flex items-center justify-center font-bold text-primary">
+                    <img src="assets/pplogo.png" class="h-10">
+                    Python Pulse 2023
+                </h3>
+                <p class="text-gray-500">
+                    copyright &copy; 2023
+                </p>
+            </div>
+        </div>
+    </footer>
     
     <script src="index.js"></script>
 </body>
