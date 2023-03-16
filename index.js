@@ -2,6 +2,7 @@ const bars = document.getElementById('bars');
 const menu = document.getElementById('menu');
 const speakers = document.getElementById('speakers');
 const nav = document.getElementById('nav');
+const loadMore = document.getElementById('load-more');
 
 const closeMenu = () => {
   const barsChild = bars.children[0];
@@ -46,12 +47,14 @@ const speakersData = [
     description: 'Blockchain developer with experience building smart contracts and applications on Ethereum and Binance Smart Chain.',
   },
   {
+    hidden: true,
     image: './assets/speaker5.jpg',
     name: 'Emily Chen',
     title: 'Data Scientist',
     description: 'Data scientist with expertise in machine learning and statistical modeling for optimizing customer experiences.',
   },
   {
+    hidden: true,
     image: './assets/speaker6.jpg',
     name: 'Sarah Nguyen',
     title: 'UX Designer',
@@ -61,7 +64,8 @@ const speakersData = [
 
 speakersData.forEach((speaker) => {
   const speakerDiv = document.createElement('div');
-  // speakerDiv.classList.add('px-4', 'py-8');
+  speakerDiv.classList.add('px-4', 'py-8');
+  if (speaker.hidden) speakerDiv.classList.add('hidden', 'md:block', 'load-more');
   speakerDiv.innerHTML = `
                             <div class="flex items-center justify-center gap-2 relative">
                             <img src="assets/python.png" class="absolute top-[-15px] left-[-25px] h-[80px]">
@@ -82,6 +86,14 @@ speakersData.forEach((speaker) => {
                             </div>
                         </div>`;
   speakers?.appendChild(speakerDiv);
+});
+
+loadMore.addEventListener('click', () => {
+  const hiddenSpeakers = document.querySelectorAll('.load-more');
+  hiddenSpeakers.forEach((speaker) => {
+    speaker.classList.remove('hidden');
+  });
+  loadMore.classList.add('hidden');
 });
 
 bars.addEventListener('click', closeMenu);
