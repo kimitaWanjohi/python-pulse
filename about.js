@@ -1,6 +1,5 @@
 const bars = document.getElementById('bars');
 const menu = document.getElementById('menu');
-// const speakers = document.getElementById('speakers');
 const nav = document.getElementById('nav');
 
 const closeMenu = () => {
