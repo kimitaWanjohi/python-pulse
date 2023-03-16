@@ -5,31 +5,6 @@
   <h2><b>Python Pulse</b></h2>
 
 </div>
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 
 <!-- TABLE OF CONTENTS -->
 
@@ -40,11 +15,12 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo](#-live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-  - [👥 Authors ](#-authors-)
+  - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -78,23 +54,24 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[Navigation bar]**
-- **[About section]**
-- **[Contact Form]**
-- **[Projects Popup]**
+- **[ Home Page]**
+- **[About Page]**
+- **[Responsive Layout]**
+- 
 <!-- - **[key_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a href="kimitawanjohi.live" name="live-demo">kimitawanjohi.live</a> -->
+## 🚀 Live Demo 
+[Live Demo Link](https://pulse.kimitawanjohi.live/)
 
-<!-- <img src="assets/screenshot.png"> -->
+<img src="/assets/screenshot.png" width="500px" height="auto" />
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+GETTING STARTED
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -131,15 +108,16 @@ Install this project with:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
+- [kimita](https://github.com/kimitaWanjohi)
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **kimita**
 
-- GitHub: [@githubhandle](https://github.com/kimitawanjohi)
-- Twitter: [@twitterhandle](https://twitter.com/kimitaw)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/kimitawanjohi)
+- [@Github](https://github.com/kimitawanjohi)
+- [@Twitter](https://twitter.com/kimitaw)
+- [@LinkedIn](https://linkedin.com/in/kimitawanjohi)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,8 +126,7 @@ Install this project with:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[mobile version]**
-- [ ] **[Desktop version]**
+- [ ] **[ Contact Us ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -173,8 +150,7 @@ If you like this project feel free to leave comments and contact via given autho
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- [Microverse](https://www.microverse.org/)
-- [kimita]('https://github.com/kimitawanjohi')
+- [Cindy Shin](https://www.behance.net/adagio07) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,7 +158,5 @@ If you like this project feel free to leave comments and contact via given autho
 
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

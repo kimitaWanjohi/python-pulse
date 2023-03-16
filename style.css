@@ -1,5 +1,28 @@
-@layer utilities {
-  .content-auto {
-    content-visibility: auto;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.main-bg {
+  background-image: url(assets/mainbg.png);
+}
+
+.bg-main {
+  background-image: url(assets/mainbg.jpg);
+}
+
+.bg-geo {
+  background-image: url(assets/geobg.jpg);
+}
+
+.conference1 {
+  background-image: url('assets/conference1.jpg');
+}
+
+.conference2 {
+  background-image: url('assets/conference2.jpg');
 }
