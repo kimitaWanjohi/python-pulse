@@ -81,7 +81,7 @@ speakersData.forEach((speaker) => {
                                 </p>
                             </div>
                         </div>`;
-  speakers.appendChild(speakerDiv);
+  speakers?.appendChild(speakerDiv);
 });
 
 bars.addEventListener('click', closeMenu);
